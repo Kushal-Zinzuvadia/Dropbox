@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import { Route, withRouter } from 'react-router-dom';
-import '../Login.css';
+import React, { Component } from "react";
+import { Route, withRouter } from "react-router-dom";
+import "../Login.css";
 import FileUpload from "./FileUpload";
 import Container from "./Container";
 import Group from "./Group";
@@ -9,66 +9,49 @@ import UserLog from "./UserLog";
 import dropbox from "./dropbox-img.png";
 import dropboxtitle from "./Dropbox_Log.png";
 
-
 class NewerHomePage extends Component {
+  render() {
+    return (
+      <div>
+        <Route
+          exact
+          path="/"
+          render={() => (
+            <div className="jumbotron">
+              <div className="row justify-content-md-center">
+                <div className="col-md-6">
+                  <img className="" src={dropboxtitle} alt="" height="70" />
 
-    render() {
-        return (
-            <div>
-                <Route exact path="/" render={() => (
-                    <div className="jumbotron">
-                       <div className="row justify-content-md-center">
-                            <div className="col-md-6">
+                  <br />
+                  <br />
+                  <br />
 
-                                <img className="" src={dropboxtitle}
-                                     alt="" height="70"/>
+                  <img className="" src={dropbox} alt="" />
+                </div>
+                <div className="col-md-4">
+                  <Container />
+                </div>
+              </div>
+            </div>
+          )}
+        />
 
-                                <br/><br/><br/>
+        <Route exact path="/files" render={() => <FileUpload />} />
 
-                                <img className="" src={dropbox}
-                                     alt="" />
-                            </div>
-                            <div className="col-md-4">
-                                <Container/>
-                            </div>
-                       </div>
-                    </div>
-                )}/>
+        <Route exact path="/userdetails" render={() => <UserDetails />} />
 
+        <Route exact path="/userlog" render={() => <UserLog />} />
 
-                <Route exact path="/files" render={() => (
+        <Route exact path="/groups" render={() => <Group />} />
 
-                    <FileUpload/>
-                )}/>
-
-                <Route exact path="/userdetails" render={() => (
-
-
-                    <UserDetails/>
-                )}/>
-
-                <Route exact path="/userlog" render={() => (
-
-
-                    <UserLog/>
-                )}/>
-
-                <Route exact path="/groups" render={() => (
-
-
-                    <Group/>
-                )}/>
-
-               {/*<Route exact path="/members" render={() => (
+        {/*<Route exact path="/members" render={() => (
 
 
                     <Group/>
                 )}/>*/}
-            </div>
-
-        );
-
-    }
+      </div>
+    );
+  }
 }
 
-export default withRouter(NewerHomePage);
+export default NewerHomePage;

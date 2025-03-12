@@ -4,56 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873dfc4e-d911-48c3-86d2-054251ba87aa" name="Changes" comment="" />
+    <list default="true" id="873dfc4e-d911-48c3-86d2-054251ba87aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/FileGridList.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/FileGridList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/FileUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/FileUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/NewerHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/NewerHomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/src/components/UserLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/src/components/UserLog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-frontend/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Kushal-Zinzuvadia"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kushal-Zinzuvadia&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kushal-Zinzuvadia/Dropbox.git",
-    "accountId": "7528b44d-530f-4f06-86df-8b1f2da86f21"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kushal-Zinzuvadia/Dropbox.git&quot;,
+    &quot;accountId&quot;: &quot;7528b44d-530f-4f06-86df-8b1f2da86f21&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2twu5yZaoiMlcJAV1vKTQefbr1s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/FSD Project/Dropbox-React-SpringBoot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/FSD Project/Dropbox-React-SpringBoot/springboot-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Dropbox-React-SpringBoot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Dropbox-React-SpringBoot" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -65,7 +88,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741275278917</updated>
-      <workItem from="1741275280521" duration="1734000" />
+      <workItem from="1741275280521" duration="3830000" />
+      <workItem from="1741688760555" duration="207000" />
+      <workItem from="1741763096860" duration="543000" />
+      <workItem from="1741800353045" duration="72000" />
+      <workItem from="1741800767413" duration="17000" />
     </task>
     <servers />
   </component>

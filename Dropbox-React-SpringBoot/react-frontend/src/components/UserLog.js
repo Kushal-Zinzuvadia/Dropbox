@@ -4,6 +4,7 @@ import "../Login.css";
 import { connect } from "react-redux";
 
 import { withRouter } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Header from "./Header";
 
 // Import React Table
@@ -170,6 +171,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default withRouter(
-  connect(mapStateToProps, mapDispatchToProps)(UserLog)
-);
+export default connect(mapStateToProps, mapDispatchToProps)(UserLog);

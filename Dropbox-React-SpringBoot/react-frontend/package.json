@@ -3,26 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.7",
+    "material-ui": "^1.0.0-beta.13",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.3",
+    "react-bootstrap-navbar": "^1.1.0",
     "react-dom": "^15.6.1",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.13",
-    "material-ui": "^1.0.0-beta.13",
     "react-file-input": "^0.2.5",
+    "react-modal": "3.0.0",
     "react-panels": "2.5.1",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2",
-    "react-modal": "3.0.0",
-    "react-bootstrap": "^0.31.3",
-    "react-table": "^6.6.0",
     "react-router": "^4.2.0",
-    "react-bootstrap-navbar": "^1.1.0"
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-table": "^6.11.5",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
